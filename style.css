@@ -130,7 +130,21 @@ header {
 	-o-background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
+	animation: slideIn 1s ease-in;
 }
+
+/* Hero illustrator animation  */
+
+@keyframes slideIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/*  */
 
 .cta-section {
 	text-align: center;
