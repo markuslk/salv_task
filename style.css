@@ -190,15 +190,14 @@ header {
 .logos {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr));
-	align-items: center;
-	justify-items: center;
+	place-items: center;
 	max-width: 90%;
 	margin-inline: auto;
-	row-gap: 1rem;
+	gap: 1rem;
 }
 
-.logo {
-	max-width: 70%;
+.logo img {
+	max-height: 40px;
 }
 
 .logo:hover {
@@ -209,7 +208,7 @@ header {
 
 .why-us-section {
 	text-align: center;
-	margin: 2rem 0 5rem;
+	margin: 3rem 0 9rem;
 	max-width: 700px;
 	margin-inline: auto;
 }
@@ -227,7 +226,7 @@ header {
 /* Footer  */
 
 footer {
-	padding-bottom: 10rem;
+	padding-bottom: 6rem;
 	background-color: var(--primary-color);
 }
 
@@ -238,7 +237,7 @@ footer {
 		transform: translateY(-25px);
 	}
 	.logos {
-		row-gap: 0;
+		row-gap: 2rem;
 	}
 }
 
