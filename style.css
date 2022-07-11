@@ -108,7 +108,7 @@ header {
 /* Main/hero section styles  */
 
 .hero-section {
-	background-image: url("./Assets/Graphic elements/hero_background.svg");
+	background-image: url("Assets/Graphic elements/hero_background.svg");
 	background-color: var(--primary-color);
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -117,7 +117,7 @@ header {
 }
 
 .hero-illustration {
-	background: url("/Assets/Graphic elements/hero-illustration.svg");
+	background: url("Assets/Graphic elements/hero-illustration.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 35px;
