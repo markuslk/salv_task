@@ -123,6 +123,9 @@ header {
 	height: 35px;
 	background-size: cover;
 	margin-bottom: 4rem;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
 }
 
 .cta-section {
