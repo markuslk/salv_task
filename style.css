@@ -45,7 +45,6 @@ a:not([class]) {
 a,
 a:visited {
 	text-decoration: none;
-	cursor: pointer;
 }
 
 /* Make images easier to work with */
