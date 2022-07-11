@@ -105,6 +105,10 @@ header {
 	cursor: pointer;
 }
 
+.salv-logo:hover {
+	opacity: 0.8;
+}
+
 /* Main/hero section styles  */
 
 .hero-section {
